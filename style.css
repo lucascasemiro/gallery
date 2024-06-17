@@ -1,0 +1,62 @@
+body {
+    font-family: 'Noto Serif Display', serif;
+    background-color: rgb(231, 228, 225);
+    margin: 0;
+    overflow-x: hidden;
+    margin: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 1px;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.item {
+    width: 700px;
+    height: 500px;
+}
+
+.item2 {
+    width: 510px;
+    height: 700px;
+    grid-row: span 2;
+}
+
+.item3 {
+    width: 1402px; 
+    height: 800px;
+    grid-column: span 2;
+}
+
+.item4 {
+    width: 510px;
+    height: 1101px;
+    margin-top: -59%;
+}
+
+.item5 {
+    width: 510px;
+    height: 500px;
+}
+
+
+
+
+
+
